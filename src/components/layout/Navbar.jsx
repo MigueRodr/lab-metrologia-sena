@@ -38,7 +38,7 @@ const Navbar = () => {
       <nav className="container-custom py-4 flex justify-between items-center">
         {/* Logo con imagen */}
         <a href="#home" className="flex items-center gap-2 group">
-         <img src="./src/assets/logoSena.png" alt="Logo" className="h-10 w-auto transition-transform group-hover:scale-105" />
+         <img src="./src/assets/logoMetrologia.png" alt="Logo" className="h-10 w-auto transition-transform group-hover:scale-105" />
           <span className="font-display font-bold text-xl text-sena-dark">
             Lab Metrología<span className="text-sena-green"> CPIC</span>
           </span>
