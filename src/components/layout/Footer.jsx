@@ -5,8 +5,8 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
             <h3 className="text-xl font-bold mb-4">Laboratorio de Metrología CPIC</h3>
-            <p className="text-gray-300">SENA - Centro de la Industria, la Empresa y los Servicios</p>
-            <p className="text-gray-300 mt-2">Bogotá, Colombia</p>
+            <p className="text-gray-300">SENA - Centro de Procesos Industriales y Construcción</p>
+            <p className="text-gray-300 mt-2">Manizales, Colombia</p>
           </div>
           <div>
             <h4 className="font-semibold mb-3">Enlaces rápidos</h4>
@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
           <div>
             <h4 className="font-semibold mb-3">Contacto</h4>
-            <p className="text-gray-300">Email: metrologia@sena.edu.co</p>
+            <p className="text-gray-300">Email: labmetrologia@sena.edu.co</p>
             <p className="text-gray-300">Tel: +57 (1) 123 4567</p>
           </div>
         </div>

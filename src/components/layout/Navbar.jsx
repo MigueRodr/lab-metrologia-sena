@@ -23,7 +23,6 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Cerrar menú móvil al hacer click en un enlace
   const handleLinkClick = () => {
     setIsOpen(false);
   };
@@ -37,11 +36,9 @@ const Navbar = () => {
       }`}
     >
       <nav className="container-custom py-4 flex justify-between items-center">
-        {/* Logo */}
+        {/* Logo con imagen */}
         <a href="#home" className="flex items-center gap-2 group">
-          <div className="w-10 h-10 bg-sena-green rounded-lg flex items-center justify-center transition-transform group-hover:scale-105">
-            <span className="text-white font-bold text-xl">S</span>
-          </div>
+         <img src="./src/assets/logoSena.png" alt="Logo" className="h-10 w-auto transition-transform group-hover:scale-105" />
           <span className="font-display font-bold text-xl text-sena-dark">
             Lab Metrología<span className="text-sena-green"> CPIC</span>
           </span>
