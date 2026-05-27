@@ -1,10 +1,10 @@
 export const services = [
-  { id: 1, title: "Calibración Dimensional", description: "Calibración de micrómetros, calibradores, relojes comparadores y bloques patrón.", icon: "📐" },
-  { id: 2, title: "Calibración Eléctrica", description: "Multímetros, fuentes de poder, osciloscopios y medidores de resistencia.", icon: "⚡" },
-  { id: 3, title: "Calibración de Temperatura", description: "Termómetros, termohigrómetros, hornos y cámaras térmicas.", icon: "🌡️" },
-  { id: 4, title: "Calibración de Presión", description: "Manómetros, transmisores de presión y calibradores de presión.", icon: "⏲️" },
-  { id: 5, title: "Calibración de Fuerza y Torque", description: "Dinamómetros, torquímetros y celdas de carga.", icon: "🔧" },
-  { id: 6, title: "Asesoría Metrológica", description: "Gestión de instrumentos, incertidumbre y sistema de calidad.", icon: "📊" },
+  { id: 1, title: "Calibración Dimensional", description: "Calibración de micrómetros, calibradores, relojes comparadores y bloques patrón." },
+  { id: 2, title: "Calibración Eléctrica", description: "Multímetros, fuentes de poder, osciloscopios y medidores de resistencia." },
+  { id: 3, title: "Calibración de Temperatura", description: "Termómetros, termohigrómetros, hornos y cámaras térmicas.",  },
+  { id: 4, title: "Calibración de Presión", description: "Manómetros, transmisores de presión y calibradores de presión." },
+  { id: 5, title: "Calibración de Fuerza y Torque", description: "Dinamómetros, torquímetros y celdas de carga."  },
+  { id: 6, title: "Asesoría Metrológica", description: "Gestión de instrumentos, incertidumbre y sistema de calidad."  },
 ];
 
 export const equipmentList = [
